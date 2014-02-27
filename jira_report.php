@@ -13,7 +13,7 @@ require "Jira/Autoloader.php";
 Jira_Autoloader::register();
 $api = new Jira_Api(
   "https://jira.workingpropeople.com",
-  new Jira_Api_Authentication_Basic("ddobrev", "Xaxaxa123")
+  new Jira_Api_Authentication_Basic("username", "password")
 );
 
 //GitLab setup
