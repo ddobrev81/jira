@@ -1,4 +1,7 @@
 <?php
+
+//current hook goes to: http://kkmsdemo4.workingpropeople.com/jira_report.php
+
 //acceess restricted
 if(!isset($HTTP_RAW_POST_DATA)) {
   echo "http exit";
