@@ -1,6 +1,12 @@
 # GitLab to Jira reporter script
 
-Do a:
-'composer install'
+Installation
+------------
+Install Composer then install
 
-njoy!
+```
+$ curl -sS https://getcomposer.org/installer | php
+$ sudo mv composer.phar /usr/local/bin/composer
+$ cd /path-to-gitlab2jira_report/
+$ composer install
+
