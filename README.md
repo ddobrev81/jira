@@ -2,7 +2,7 @@
 
 Installation
 ------------
-Install Composer then install
+Install Composer then install composer.json
 
 ```
 $ curl -sS https://getcomposer.org/installer | php
